@@ -1,0 +1,44 @@
+#header {
+    display: flex;
+    border: 1px solid red;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.logo > img {
+    width: 140px;
+    height: 100%;
+    border: 1px solid blue;
+}
+
+.searchbox {
+    border: 1px solid black;
+    width: 50%;
+    height: 70%;
+    display: flex;
+}
+
+.searchbox > input {
+    width: 90%;
+}
+
+.searchbox > button {
+    width: 7%;
+}
+
+.address, .signin, .orders {
+    line-height: 2px;
+}
+
+.language {
+    display: flex;
+}
+
+.language > img {
+    width: 30%;
+    height: 50%;
+}
+
+.language > button {
+    height: 50%;
+}
